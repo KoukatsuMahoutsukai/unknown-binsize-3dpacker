@@ -3,7 +3,7 @@ Unknown binsize 3dpacker
 [Live web preview](https://unkown3dbinpacker.co/)
 
 
-3dbin packer with bin size unknown/undefined based on [this repository](https://github.com/jerry800416/3D-bin-packing) which is based on this repository [this repository](https://github.com/enzoruiz/3dbinpacking). 
+3dbin packer with bin size unknown/undefined based on [this repository](https://github.com/jerry800416/3D-bin-packing) which is based on [this repository](https://github.com/enzoruiz/3dbinpacking). 
 
 
 
