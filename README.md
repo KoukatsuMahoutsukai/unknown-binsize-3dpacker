@@ -1,9 +1,35 @@
 Unknown 3dbin packer
 ====
+[Live web preview](https://unkown3dbinpacker.co/)
+
 
 3dbin packer with bin size unknown/undefined based on [this repository](https://github.com/jerry800416/3D-bin-packing) which is based on this repository [this repository](https://github.com/enzoruiz/3dbinpacking). 
 
-<img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/3.jpeg" width="600"/>
+
+
+The algorithm employs a systematic approach to efficiently pack a given set of items into a single container. The process involves the following steps:
+
+*  Calculate the total volume of all individual items combined, obtaining a theoretical volume. Based on this volume, initialize the size of the container.
+
+*  Iterate by incrementing or decrementing the container size until all items can be successfully accommodated within it.
+
+*  Upon determining the size at which all items fit, further decrement the container size along each axis until the limit is reached. The limit is defined as the point at which there are remaining items that cannot be fit.
+
+*  If the initial packing attempt is successful (fullpass = True), introduce variations by altering the order of axis decrements. This is achieved by considering six possible combinations: x-y-z, x-z-y, y-x-z, y-z-x, z-x-y, and z-y-x.
+
+*  Cache the results obtained from each combination and compare them based on the chosen criteria, such as 'volume' or 'surface'. Select the combination that yields the best result.
+
+
+
+It is important to note that this algorithm may not perform optimally when handling a large number of items due to the repeated execution of the bin packing process during each step of incrementing or decrementing the container size. It is essentially a bruteforce method. However, it is particularly useful for tightly packing items into custom cardboard containers of specific sizes
+
+
+
+
+
+
+
+<img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/main/img/3.jpeg" width="600"/>
 
 ## OutLine
 - [3D Bin Packing](#3d-bin-packing)
