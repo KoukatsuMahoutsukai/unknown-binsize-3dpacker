@@ -10,17 +10,6 @@ Unknown 3dbin packer
   - [OutLine](#outline)
   - [Improvement](#improvement)
   - [How to use](#how-to-use)
-  - [Example](#example)
-      - [Simple example](#simple-example)
-      - [example0](#example0)
-      - [example1](#example1)
-      - [example2](#example2)
-      - [example3](#example3)
-      - [example4](#example4)
-      - [example5](#example5)
-      - [example6](#example6)
-      - [example7](#example7)
-  - [Issue](#issue)
   - [Bug](#bug)
   - [History](#history)
   - [Reference](#reference)
@@ -34,7 +23,7 @@ Unknown 3dbin packer
 
     Original packaging  |  Used fix point
     :-------------------------:|:-------------------------:
-    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/1.jpg" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/2.jpg" width="400"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/main/img/1.jpg" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/2.jpg" width="400"/>
 
 2. **Item bearing problem :**
     * `[loadbear = X] type int` The original method did not consider the problem of project load-bearing, because load-bearing involves the structure, I used the priority to sort the projects with higher load-bearing capacity.The higher the number, the higher the priority.
