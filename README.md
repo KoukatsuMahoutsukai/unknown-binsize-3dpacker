@@ -1,6 +1,6 @@
 Unknown binsize 3dpacker
 ====
-[Live web preview](https://unkown3dbinpacker.co/)
+[Live web preview](https://unkown3dbinpacker.co/) (apologies in advance for the ui and the possibly slow site)
 
 
 3dbin packer with bin size unknown/undefined based on [this repository](https://github.com/jerry800416/3D-bin-packing) which is based on [this repository](https://github.com/enzoruiz/3dbinpacking). 
