@@ -1,9 +1,9 @@
-3D Bin Packing
+Unknown 3dbin packer
 ====
 
-3D Bin Packing improvements based on [this repository](https://github.com/enzoruiz/3dbinpacking). 
+3dbin packer with bin size unknown/undefined based on [this repository](https://github.com/jerry800416/3D-bin-packing) which is based on this repository [this repository](https://github.com/enzoruiz/3dbinpacking). 
 
-<img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/3.jpeg" width="600"/>
+<img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/3.jpeg" width="600"/>
 
 ## OutLine
 - [3D Bin Packing](#3d-bin-packing)
@@ -34,7 +34,7 @@
 
     Original packaging  |  Used fix point
     :-------------------------:|:-------------------------:
-    <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/1.jpg" width="400"/>  |  <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/2.jpg" width="400"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/1.jpg" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/2.jpg" width="400"/>
 
 2. **Item bearing problem :**
     * `[loadbear = X] type int` The original method did not consider the problem of project load-bearing, because load-bearing involves the structure, I used the priority to sort the projects with higher load-bearing capacity.The higher the number, the higher the priority.
@@ -52,7 +52,7 @@
 6. **Container coner :**
     * `[corner = X] type int` Set the size of container corner, the unit is cm, color is black.
 
-    <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/7.jpeg" width="600"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/7.jpeg" width="600"/>
 
 7. **Paint picture :** 
     * `[painter.plotBoxAndItems()]` Draw pictures.
@@ -66,7 +66,7 @@
 10. **Mixed cube and cylinder :** 
     * `typeof = cube or cylinder`  mixed with cube and cylinder .
 
-    <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/4.jpeg" width="600"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/4.jpeg" width="600"/>
 
 11. **Check stability on item :**
     * If you want to use this function,`fix_point = True` and `check_stable=True` and `0 < support_surface_ratio <= 1 `.
@@ -76,7 +76,7 @@
 
     ! check stable  |  check stable
     :-------------------------:|:-------------------------:
-    <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/5.JPG" width="400"/>  |  <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/6.JPG" width="400"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/5.JPG" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/6.JPG" width="400"/>
 
 12. **distribute items :**
     * If you have multiple boxes, you can change distribute_items to achieve different packaging purposes.
@@ -86,14 +86,14 @@
     
     img |  distribute_items | ! distribute_items
     :-------------------------:|:-------------------------:|:-------------------------:
-    Bin1 | <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/8.JPG" width="400"/>  |  <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/8.JPG" width="400"/> 
-    Bin2 | <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/9.JPG" width="400"/>  |  <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/10.JPG" width="400"/> 
+    Bin1 | <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/8.JPG" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/8.JPG" width="400"/> 
+    Bin2 | <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/9.JPG" width="400"/>  |  <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/10.JPG" width="400"/> 
 
 13. **Write part number on item :**
     * Check **Painting** in [how to use](#how-to-use).
     * In order to better distinguish each item, I write part no in the middle of the item, but if I do this, it will be blocked by the color, so it is best to set the alpha value to about 0.2.
 
-    <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/11.jpeg" width="600"/>
+    <img src="https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/img/11.jpeg" width="600"/>
 
 ## How to use
 
@@ -257,11 +257,11 @@ fig.show()
 
 ## Reference
 
-* [Optimizing three-dimensional bin packing through simulation](https://github.com/jerry800416/3dbinpacking/blob/master/reference/OPTIMIZING%20THREE-DIMENSIONAL%20BIN%20PACKING%20THROUGH%20SIMULATION.pdf)
+* [Optimizing three-dimensional bin packing through simulation](https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/reference/OPTIMIZING%20THREE-DIMENSIONAL%20BIN%20PACKING%20THROUGH%20SIMULATION.pdf)
 * https://github.com/enzoruiz/3dbinpacking
 * https://github.com/nmingotti/3dbinpacking
 
 
 ## License
 
-[MIT](https://github.com/jerry800416/3dbinpacking/blob/master/LICENSE)
+[MIT](https://github.com/KoukatsuMahoutsukai/unknown-3dbin-packer/blob/master/LICENSE)
