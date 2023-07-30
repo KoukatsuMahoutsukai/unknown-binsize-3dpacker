@@ -198,7 +198,7 @@ fig.show()
 
 ## Issue
 * Optimizing using GA or PSO...
-
+* Sometimes theres an issue where the largest item does not fit on the initial bin somehow, resulting in a failed run.
 
 ## Reference
 * https://github.com/jerry800416/3D-bin-packing
